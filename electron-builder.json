@@ -1,0 +1,26 @@
+{
+  "appId": "com.kerrybrown.applockpro",
+  "productName": "App Lock Pro",
+  "directories": {
+    "output": "build"
+  },
+  "files": [
+    "**/*"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "msi",
+        "arch": [
+          "x64",
+          "ia32"
+        ]
+      }
+    ]
+  },
+  "msi": {
+    "oneClick": false,
+    "perMachine": true
+  },
+  "publish": null
+}
